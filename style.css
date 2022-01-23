@@ -75,8 +75,13 @@ h2 {
 }
 
 @media screen and (max-width:516px) {
+    html {
+        height: -webkit-fill-available;
+    }
+    
     body {
-        height: 80vh;
+        min-height: 100vh;
+        min-height: -webkit-fill-available;
     }
     
     .headline {
