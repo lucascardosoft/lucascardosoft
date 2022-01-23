@@ -75,8 +75,16 @@ h2 {
 }
 
 @media screen and (max-width:516px) {
+    body {
+        height: 90vh;
+    }
+    
     .headline {
         font-size: 2rem;
+    }
+
+    .me {
+        line-height: 2rem;
     }
 
     .footer {
