@@ -24,6 +24,7 @@ main {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    position: relative;
 }
 
 .content {
@@ -47,6 +48,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .email {
@@ -75,16 +77,7 @@ h2 {
 }
 
 @media screen and (max-width:516px) {
-    html {
-        height: -webkit-fill-available;
-    }
-    
-    body {
-        min-height: 100vh;
-        min-height: -webkit-fill-available;
-    }
-    
-    .headline {
+   .headline {
         font-size: 2rem;
     }
 
@@ -99,6 +92,7 @@ h2 {
         width: 100%;
         display: flex;
         padding-left: 0;
+        margin-top: 40px;
     }
 
     .social-item {
