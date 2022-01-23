@@ -9,7 +9,7 @@ body {
 }
 
 .logo {
-    width: 10%;
+    width: 5%;
 }
 p {
     width: 100%;
@@ -79,6 +79,10 @@ h2 {
 @media screen and (max-width:516px) {
    .headline {
         font-size: 2rem;
+    }
+
+    .logo {
+        width: 15%;
     }
 
     .me {
