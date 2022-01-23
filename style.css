@@ -22,6 +22,7 @@ body {
 .language-item {
     display: flex;
     margin-left: 16px;
+    list-style-type: none;
 }
 
 .language-link {
